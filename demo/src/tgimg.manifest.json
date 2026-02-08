@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "generated_at": "2025-01-15T12:00:00Z",
+  "profile": "telegram-webview",
+  "base_path": "https://picsum.photos/id/",
+  "assets": {
+    "demo/banner": {
+      "original": { "width": 1920, "height": 1080, "format": "jpeg", "size": 524288, "has_alpha": false },
+      "thumbhash": "IxgKFoJ2d2eHiHd4d3eId3hwiGcG",
+      "aspect_ratio": 1.7778,
+      "variants": [
+        { "format": "jpeg", "width": 320, "height": 180, "size": 12000, "hash": "aabb1122", "path": "10/320/180" },
+        { "format": "jpeg", "width": 640, "height": 360, "size": 32000, "hash": "aabb3344", "path": "10/640/360" },
+        { "format": "jpeg", "width": 960, "height": 540, "size": 56000, "hash": "aabb5566", "path": "10/960/540" },
+        { "format": "jpeg", "width": 1280, "height": 720, "size": 95000, "hash": "aabb7788", "path": "10/1280/720" }
+      ]
+    },
+    "demo/card-1": {
+      "original": { "width": 800, "height": 600, "format": "jpeg", "size": 204800, "has_alpha": false },
+      "thumbhash": "HBkKFYJ0Z4d3aYd4d3eIdniAeGcG",
+      "aspect_ratio": 1.3333,
+      "variants": [
+        { "format": "jpeg", "width": 320, "height": 240, "size": 8000, "hash": "cc001122", "path": "20/320/240" },
+        { "format": "jpeg", "width": 640, "height": 480, "size": 24000, "hash": "cc003344", "path": "20/640/480" }
+      ]
+    },
+    "demo/card-2": {
+      "original": { "width": 800, "height": 600, "format": "jpeg", "size": 198000, "has_alpha": false },
+      "thumbhash": "GRgSFIJndYeHeId3eHd3d3eIeGcG",
+      "aspect_ratio": 1.3333,
+      "variants": [
+        { "format": "jpeg", "width": 320, "height": 240, "size": 7500, "hash": "dd001122", "path": "30/320/240" },
+        { "format": "jpeg", "width": 640, "height": 480, "size": 22000, "hash": "dd003344", "path": "30/640/480" }
+      ]
+    },
+    "demo/card-3": {
+      "original": { "width": 800, "height": 600, "format": "jpeg", "size": 210000, "has_alpha": false },
+      "thumbhash": "JRkKFoJnd4iIiId3h4d3aHd4eGcG",
+      "aspect_ratio": 1.3333,
+      "variants": [
+        { "format": "jpeg", "width": 320, "height": 240, "size": 8200, "hash": "ee001122", "path": "40/320/240" },
+        { "format": "jpeg", "width": 640, "height": 480, "size": 25000, "hash": "ee003344", "path": "40/640/480" }
+      ]
+    },
+    "demo/card-4": {
+      "original": { "width": 800, "height": 600, "format": "jpeg", "size": 195000, "has_alpha": false },
+      "thumbhash": "KhkSFIJ3d3d4aHd3h3aIeHiIaGcG",
+      "aspect_ratio": 1.3333,
+      "variants": [
+        { "format": "jpeg", "width": 320, "height": 240, "size": 7800, "hash": "ff001122", "path": "50/320/240" },
+        { "format": "jpeg", "width": 640, "height": 480, "size": 23000, "hash": "ff003344", "path": "50/640/480" }
+      ]
+    },
+    "demo/card-5": {
+      "original": { "width": 800, "height": 600, "format": "jpeg", "size": 189000, "has_alpha": false },
+      "thumbhash": "LBkKFoJ2Z2h3aYiId3eIaHd4iGcG",
+      "aspect_ratio": 1.3333,
+      "variants": [
+        { "format": "jpeg", "width": 320, "height": 240, "size": 7200, "hash": "11001122", "path": "60/320/240" },
+        { "format": "jpeg", "width": 640, "height": 480, "size": 21000, "hash": "11003344", "path": "60/640/480" }
+      ]
+    },
+    "demo/card-6": {
+      "original": { "width": 800, "height": 600, "format": "jpeg", "size": 202000, "has_alpha": false },
+      "thumbhash": "MRgSFIJ3eHd4aHiIZ3h4d3d3aGcG",
+      "aspect_ratio": 1.3333,
+      "variants": [
+        { "format": "jpeg", "width": 320, "height": 240, "size": 7600, "hash": "22001122", "path": "70/320/240" },
+        { "format": "jpeg", "width": 640, "height": 480, "size": 23500, "hash": "22003344", "path": "70/640/480" }
+      ]
+    }
+  },
+  "stats": {
+    "total_input_bytes": 2048000,
+    "total_output_bytes": 512000,
+    "total_assets": 7,
+    "total_variants": 20
+  }
+}

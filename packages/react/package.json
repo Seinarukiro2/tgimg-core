@@ -1,0 +1,64 @@
+{
+  "name": "@tgimg/react",
+  "version": "0.1.0",
+  "description": "Ultra-fast image component for Telegram Mini Apps — instant thumbhash placeholders, adaptive format/size selection, zero layout shift",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:visual": "vitest run src/__tests__/visual-contracts.test.ts",
+    "test:visual:update": "TGIMG_UPDATE_ARTIFACTS=1 vitest run src/__tests__/visual-contracts.test.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "mini-app",
+    "image",
+    "thumbhash",
+    "placeholder",
+    "avif",
+    "webp",
+    "performance",
+    "lazy-load"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnyUserName/tgimg"
+  }
+}

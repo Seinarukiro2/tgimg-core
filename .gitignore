@@ -1,0 +1,37 @@
+# Binaries
+cli/tgimg
+tgimg-cli
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go
+cli/vendor/
+
+# Node
+node_modules/
+packages/react/dist/
+demo/dist/
+demo/node_modules/
+packages/react/node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Build output
+tgimg_out/
+
+# Playground (temporary demo, not committed)
+playground/
+
+# Temp
+*.tmp
+*.log
+
+# Visual test artifacts (generated, not committed)
+packages/react/test-artifacts/
